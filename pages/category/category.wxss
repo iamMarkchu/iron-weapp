@@ -1,0 +1,4 @@
+/* pages/category/category.wxss */
+.cate-tab {
+  background-color: #eeeeee;
+}

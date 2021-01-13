@@ -1,0 +1,11 @@
+/**app.wxss**/
+page {
+  background-color: #eeeeee;
+}
+.container {
+  margin-top: .5rem;
+}
+
+.create-btn {
+  margin-bottom: 1rem;
+}
