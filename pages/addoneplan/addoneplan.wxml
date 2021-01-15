@@ -1,4 +1,88 @@
 <!--pages/addoneplan/addoneplan.wxml-->
-<view class="container">
-  123132
-</view>
+<van-nav-bar left-arrow custom-class="my-navbar">
+</van-nav-bar>
+<van-panel title="俯卧撑" desc="锻炼胸肌，肱三头肌" use-footer-slot footer-class="my-panel-footer">
+    <view>
+      <van-cell-group title="第一组">
+        <van-field
+          value="{{ value }}"
+          placeholder="请输入重量"
+          label="重量"
+          type="number"
+          border="{{ false }}"
+          bind:change="onChange"
+        />
+        <van-field
+          value="{{ value }}"
+          placeholder="请输入次数"
+          label="次数"
+          type="number"
+          border="{{ false }}"
+          bind:change="onChange"
+        />
+        <van-field
+          value="{{ value }}"
+          placeholder="请输入组间歇"
+          label="组间歇"
+          type="number"
+          border="{{ false }}"
+          bind:change="onChange"
+        />
+      </van-cell-group>
+      <van-cell-group title="第二组">
+        <van-field
+          value="{{ value }}"
+          placeholder="请输入重量"
+          label="重量"
+          type="number"
+          border="{{ false }}"
+          bind:change="onChange"
+        />
+        <van-field
+          value="{{ value }}"
+          placeholder="请输入次数"
+          label="次数"
+          type="number"
+          border="{{ false }}"
+          bind:change="onChange"
+        />
+        <van-field
+          value="{{ value }}"
+          placeholder="请输入组间歇"
+          label="组间歇"
+          type="number"
+          border="{{ false }}"
+          bind:change="onChange"
+        />
+      </van-cell-group>
+      <van-cell-group title="第三组">
+        <van-field
+          value="{{ value }}"
+          placeholder="请输入重量"
+          label="重量"
+          type="number"
+          border="{{ false }}"
+          bind:change="onChange"
+        />
+        <van-field
+          value="{{ value }}"
+          placeholder="请输入次数"
+          label="次数"
+          type="number"
+          border="{{ false }}"
+          bind:change="onChange"
+        />
+        <van-field
+          value="{{ value }}"
+          placeholder="请输入组间歇"
+          label="组间歇"
+          type="number"
+          border="{{ false }}"
+          bind:change="onChange"
+        />
+      </van-cell-group>
+    </view>
+    <view slot="footer">
+      <van-button size="small" type="danger">新增一组</van-button>
+    </view>
+  </van-panel>

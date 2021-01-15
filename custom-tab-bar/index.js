@@ -15,7 +15,7 @@ Component({
       {
 				icon: 'user-circle-o',
 				text: '我的',
-				url: '/pages/my/my'
+				url: '/pages/addoneplan/addoneplan'
 			}
 		]
 	},

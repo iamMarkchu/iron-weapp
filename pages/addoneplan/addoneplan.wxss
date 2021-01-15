@@ -1,1 +1,4 @@
 /* pages/addoneplan/addoneplan.wxss */
+.my-panel-footer {
+  text-align: right;
+}

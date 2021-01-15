@@ -1,6 +1,6 @@
 // pages/plan/plan.js
 const header = {
-  "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2MTA2MjkyNjksImlzcyI6InRlc3QiLCJuYmYiOjE2MTA1NDI4Njl9.oT8PAgutHYwji6KzwBiLVTnwaqoXU968yIvUq5t55cs"
+  "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2MTA4MDM0NzMsImlzcyI6InRlc3QiLCJuYmYiOjE2MTA3MTcwNzN9.utob2SZfbKWbeIyZMjq-rfvpXkEQzuWmRMOHBIe4xgo"
 }
 Page({
 
@@ -69,7 +69,6 @@ onReady: function () {
 * 生命周期函数--监听页面显示
 */
 onShow: function () {
-this.getTabBar().init();
 },
 
 /**
